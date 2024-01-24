@@ -2,4 +2,9 @@
 
 # todo list
 1. create venv
-2. django
+2. create a.sh for venv
+3. create django forder  
+  $ pip install django
+  $ django-admin startproject config .
+  
+
