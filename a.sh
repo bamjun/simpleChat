@@ -1,0 +1,1 @@
+source 'C:\Projects\simpleChat\venv\venv\Scripts\activate'
