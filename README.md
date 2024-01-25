@@ -8,6 +8,8 @@
   $ django-admin startproject config .  
 4. make app for main screen of chat.  
   $ django-admin startapp chat
-  
+5. make urls.py on chatFolder and connect from configUrls to chatUrls
+6. create hello page
+
   
 
