@@ -1,29 +1,37 @@
 # Django simple chatting web app
 
 # todo list
-1. create venv  
-2. create a.sh for venv  
-3. create django forder  
-  $ pip install django  
-  $ django-admin startproject config .    
-4. make app for main screen of chat.  
-  $ django-admin startapp chat  
-5. make urls.py on chatFolder and connect from configUrls to chatUrls  
-6. create hello page  
-7. install channels and daphne <a href='https://www.geeksforgeeks.org/realtime-chat-app-using-django/'>instruction</a>  
-  $ python -m pip install -U channels  
-  $ python -m pip install -U daphne
-8. make sign-up page
-9. connecting google login api
 
+[ v ] 1. create venv  
+[ v ] 2. create a.sh for venv  
+[ v ] 3. create django forder
 
+- \$ pip install django
+- \$ django-admin startproject config .
 
-  
+[ v ] 4. make app for main screen of chat.  
+- \$ django-admin startapp chat
+
+[ v ] 5. make urls.py on chatFolder and connect from configUrls to chatUrls  
+[ v ] 6. create hello page  
+[ v ] 7. install channels and daphne <a href='https://www.geeksforgeeks.org/realtime-chat-app-using-django/'>instruction</a>  
+- \$ python -m pip install -U channels  
+- \$ python -m pip install -U daphne  
+
+[ v ] 8. make sign-up page  
+[ ] 9. connecting google login api  
+[ ] 10. add weather effect  
+
 #
+
 #
+
 #
+
 # to do when integration with aws
+
 ### aws 올리고 daphne 설정하기
+
 Daphne는 Django Channels의 중요한 컴포넌트 중 하나로, ASGI(Asynchronous Server Gateway Interface) 서버입니다. 기존의 Django는 WSGI(Web Server Gateway Interface)를 사용하여 요청을 처리하는 동기적 서버를 사용했습니다. 그러나 Django Channels의 도입으로 비동기 처리가 필요해졌고, 이를 위해 ASGI 서버인 Daphne가 사용됩니다.
 
 ### Daphne의 주요 기능
